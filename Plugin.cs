@@ -96,7 +96,7 @@ namespace TooMuchInfo
                 datePool.Add(UserId, "LOADING");
                 PlayFabClientAPI.GetAccountInfo(new GetAccountInfoRequest { PlayFabId = UserId }, delegate (GetAccountInfoResult result)
                 {
-                    string date = result.AccountInfo.Created.ToString("MMM dd, yyyy HH:mm").ToUpper();
+                    string date = result.AccountInfo.Created.ToString("MMM dd, yyyy hh:mm tt").ToUpper();
                     datePool[UserId] = date;
                     rig.UpdateName();
                 }, delegate { datePool[UserId] = "ERROR"; rig.UpdateName(); }, null, null);
@@ -153,9 +153,11 @@ namespace TooMuchInfo
 
         static string FormatColor(Color color)
         {
-            return "COLOR <color=red>" + Math.Round(color.r * 255).ToString() + 
-                   "</color> <color=green>" + Math.Round(color.g * 255).ToString() + 
-                   "</color> <color=blue>" + Math.Round(color.b * 255).ToString() + "</color>";
+            int red = (int)Math.Round(color.r * 9);
+            int green = (int)Math.Round(color.g * 9);
+            int blue = (int)Math.Round(color.b * 9);
+
+            return $"COLOR <color=red>{red}</color> <color=green>{green}</color> <color=blue>{blue}</color>";
         }
 
         public static void UpdateName(VRRig rig)
