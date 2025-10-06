@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TooMuchInfo-master\\TooMuchInfo.csproj": {}
+    "C:\\Users\\makub\\Downloads\\TooMuchInfo-1.2.2\\TooMuchInfo-1.2.2\\TooMuchInfo.csproj": {}
   },
   "projects": {
-    "D:\\TooMuchInfo-master\\TooMuchInfo.csproj": {
+    "C:\\Users\\makub\\Downloads\\TooMuchInfo-1.2.2\\TooMuchInfo-1.2.2\\TooMuchInfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TooMuchInfo-master\\TooMuchInfo.csproj",
+        "projectUniqueName": "C:\\Users\\makub\\Downloads\\TooMuchInfo-1.2.2\\TooMuchInfo-1.2.2\\TooMuchInfo.csproj",
         "projectName": "TooMuchInfo",
-        "projectPath": "D:\\TooMuchInfo-master\\TooMuchInfo.csproj",
+        "projectPath": "C:\\Users\\makub\\Downloads\\TooMuchInfo-1.2.2\\TooMuchInfo-1.2.2\\TooMuchInfo.csproj",
         "packagesPath": "C:\\Users\\makub\\.nuget\\packages\\",
-        "outputPath": "D:\\TooMuchInfo-master\\obj\\",
+        "outputPath": "C:\\Users\\makub\\Downloads\\TooMuchInfo-1.2.2\\TooMuchInfo-1.2.2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
